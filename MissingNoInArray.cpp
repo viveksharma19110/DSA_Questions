@@ -6,7 +6,7 @@ int main(){
     int n;
     cin>>n;
 
-    vector<int> arr(n-1); // If a number is missing, there should be n-1 numbers
+    vector<int> arr(n-1); 
 
     for(int i=0;i<n-1;i++){
         cin>>arr[i];

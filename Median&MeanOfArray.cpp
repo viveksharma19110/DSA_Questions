@@ -18,10 +18,10 @@ double findMean(int a[], int n)
 
 double findMedian(int a[], int n)
 {
-    // First we sort the array
+   
     sort(a, a + n);
  
-    // check for even case
+   
     if (n % 2 != 0){
         double median1=a[n/2];
         
